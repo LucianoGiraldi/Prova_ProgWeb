@@ -1,0 +1,104 @@
+/* Definir tipo de fonte */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+main {
+    text-align: center;
+}
+
+button {
+    border-radius: 3px;
+    background-color: #ff4136;
+    color: white;
+    text-align: center;
+    margin: 5px 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .link-estados{
+    color:#333 ;
+    opacity: 0.8;
+  }
+
+
+/* Header */
+
+header {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+header h1 {
+    font-size: 24px;
+}
+  
+header a {
+    text-decoration: none;
+    color: white;
+}
+  
+@media (max-width: 768px) {
+    header h1 {
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+}
+
+#fav {
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+/* remoção bullets points  */
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+  }
+  
